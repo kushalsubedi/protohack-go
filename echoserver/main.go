@@ -50,6 +50,5 @@ func handle(conn net.Conn) {
 
 	// When io.Copy returns EOF:
 	// - client has closed its write side
-	// - server has echoed everything
-	// Now closing conn tells the client we are done.
+	// - server has echoed everything Now closing conn tells the client we are done.
 }
